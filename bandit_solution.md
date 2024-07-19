@@ -16,7 +16,8 @@
   cat readme
   ```
 - **Password Found:** ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5Ifexit
-<Screenshot>
+![Level 1](https://github.com/user-attachments/assets/2b6530ac-dc96-45c9-aefd-164a396a884e)
+
 
 ## Level 2
 - **Commands Used:**
@@ -24,7 +25,8 @@
   cat ./-
   ```
 - **Password Found:** 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-<Screenshot>
+![Level 2](https://github.com/user-attachments/assets/9412aab0-b270-4e3a-96cc-9483c8093632)
+
 
 ## Level 3
 - **Commands Used:**
@@ -34,7 +36,8 @@
   cat spaces\ in\ this\ filename
   ```
 - **Password Found:** MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-<Screenshot>
+![Level 3](https://github.com/user-attachments/assets/94f10540-4ba6-4533-831c-0eff96f12f99)
+
 
 ## Level 4
 - **Commands Used:**
@@ -46,7 +49,8 @@
   cat ...Hiding-From-You
   ```
 - **Password Found:** 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-<Screenshot>
+![Level 4](https://github.com/user-attachments/assets/2bcd30fd-097f-44ba-8f2f-0343efc28980)
+
 
 ## Level 5
 - **Commands Used:**
@@ -56,7 +60,8 @@
   cat ./-file07
   ```
 - **Password Found:** 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw 
-<Screenshot>
+![Level 5](https://github.com/user-attachments/assets/3f936fe5-d74e-48d0-b2da-ed25b310b368)
+
 
 ## Level 6
 - **Commands Used:**
@@ -66,7 +71,8 @@
   cat ./inhere/maybehere07/.file2
   ```
 - **Password Found:** HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-<Screenshot>
+![Level 6](https://github.com/user-attachments/assets/57d8f9c5-bdf1-4574-91f9-45c9de81c5b7)
+
 
 ## Level 7
 - **Commands Used:**
@@ -76,7 +82,8 @@
   cat /var/lib/dpkg/info/bandit7.password
   ```
 - **Password Found:** morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-<Screenshot>
+![Level 7](https://github.com/user-attachments/assets/f1969851-2a30-4940-93d6-8259bf28109f)
+
 
 ## Level 8
 - **Commands Used:**
@@ -85,7 +92,8 @@
   grep "millionth" data.txt
   ```
 - **Password Found:** dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
-<Screenshot>
+![Level 8](https://github.com/user-attachments/assets/0888586a-ae0c-4ff6-8ca4-d3642dd120f7)
+
 
 ## Level 9
 - **Commands Used:**
@@ -94,7 +102,8 @@
   sort data.txt | uniq -u
   ```
 - **Password Found:** 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-<Screenshot>
+![Level 9](https://github.com/user-attachments/assets/65d2281b-cf14-4cce-b95a-ca5d82134cb2)
+
 
 ## Level 10
 - **Commands Used:**
@@ -103,7 +112,8 @@
   strings data.txt | grep "=*"
   ```
 - **Password Found:** FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-<Screenshot>
+![Level 10](https://github.com/user-attachments/assets/f52140da-34fa-4460-a148-e32937009529)
+
 
 ## Level 11
 - **Commands Used:**
@@ -112,13 +122,16 @@
   base64 -d data.txt
   ```
 - **Password Found:** dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
-<Screenshot>
+![Level 11](https://github.com/user-attachments/assets/3e03f6cf-7ba1-4e0b-963a-5341880adb93)
+
 
 ## Level 12
 - **Commands Used:**
   ```bash
-  ssh bandit11@bandit.labs.overthewire.org -p 2220	
+  ssh bandit11@bandit.labs.overthewire.org -p 2220
+	cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'	
 
   ```
-- **Password Found:** 
-<Screenshot>
+- **Password Found:** 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+![Level 12](https://github.com/user-attachments/assets/b481e319-083f-4650-a5ef-476f88821fc6)
+
