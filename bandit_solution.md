@@ -6,7 +6,8 @@
   ```
 - **Password Found:** bandit0
 
-<Screenshot>
+![Level 0](https://github.com/user-attachments/assets/182a3a3f-0d8f-4cb1-b853-adbdec23af33)
+
 
 ## Level 1
 - **Commands Used:**
